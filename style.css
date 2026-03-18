@@ -1,0 +1,38 @@
+nav {
+    background-color: #5d3a3a;
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+.price_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.price_table th, .price_table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+.price_table th {
+    background-color: #5d3a3a;
+    color: white;
+}
+#submit_button {
+    background-color: #5d3a3a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
